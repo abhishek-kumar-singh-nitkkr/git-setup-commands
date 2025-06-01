@@ -1,0 +1,23 @@
+#to check version of git
+git --version
+#to set username on git
+git config --global user.name 'Abhishek Kumar Singh'
+#to set email of user
+git config --global user.email 'abhishekkatiyar822@gmail.com'
+#to check user email
+git config --global user.email
+#to set user name and email directly in config file
+#it will open vim or nano text editor
+git config --global --edit
+#to exit from text editor without saving change
+1. press esc key
+2. type :q!
+3. press enter
+#to exit and save changes
+1. press esc
+2.type :wq
+3. press enter
+#create a folder using mkdir filename and to make it git repository
+git init
+#to check file that track changes in repository
+la -a
