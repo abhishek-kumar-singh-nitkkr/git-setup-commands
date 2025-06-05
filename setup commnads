@@ -26,7 +26,7 @@ git status
 #to add a file for tracking
 git add filename
 #using git add files goes into staging area and after using commit from staging to repository.
-#to dommit a file
+#to commit a file
 git commit -m "message you want to display after successful commit"
 
 # to get log of how many commits are done till now and by whom
@@ -34,3 +34,28 @@ git log
 
 #to clear the screen
 either use clear or shortcut key ctrl + L
+
+#to go to particular time use git log for getting hash and use commnad
+git checkout hashvalue
+
+#to return to previous or current position
+git checkout master
+
+#to go to a particular branch use git checkout hashvalue and then
+git branch
+#and to return current position
+git checkout master
+
+#to create a new branch
+git branch branch_name
+
+#for swtiching to a branch
+git checkout branch_name
+
+#to create a new branch and simultaneoulsy move to it
+git checkout -b branchname
+
+#to merge to branches when you feel a feature is stable and want add to an existing branch
+git merge branchname(which you want to merge)
+
+
