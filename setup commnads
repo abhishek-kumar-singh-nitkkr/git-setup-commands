@@ -21,3 +21,16 @@ git config --global --edit
 git init
 #to check file that track changes in repository
 la -a
+#to check status of a repository
+git status
+#to add a file for tracking
+git add filename
+#using git add files goes into staging area and after using commit from staging to repository.
+#to dommit a file
+git commit -m "message you want to display after successful commit"
+
+# to get log of how many commits are done till now and by whom
+git log
+
+#to clear the screen
+either use clear or shortcut key ctrl + L
