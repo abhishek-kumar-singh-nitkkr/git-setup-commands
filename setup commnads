@@ -58,4 +58,7 @@ git checkout -b branchname
 #to merge to branches when you feel a feature is stable and want add to an existing branch
 git merge branchname(which you want to merge)
 
+#to ignore a file first create a file name .gitignore directly or by using command
+touch .gitignore
+
 
