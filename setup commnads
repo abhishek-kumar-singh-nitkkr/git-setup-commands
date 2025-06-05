@@ -61,4 +61,24 @@ git merge branchname(which you want to merge)
 #to ignore a file first create a file name .gitignore directly or by using command
 touch .gitignore
 
+#to push tracked code on github
+1. Create a repository on github to push
+2. Use command $ git remote add origin https://github.com/abhishek-kumar-singh-nitkkr/learngit.git(to coonect with remote github account)
+3. then $ git branch -M master(here master is the branch that we want to push)
+4. then $ git push -u origin maaster
+
+#to clone a repository on local host
+git clone repository_link_on_github (under code section)
+
+#to edit a file through vim code editor
+vim file_name
+#first use 'i' to insert in file after opening it in vim editor then after making chnages use :wq to exit while saving the changes
+
+#to read file through vim editor
+cat file_name
+
+#to make a pull request so that orginial creater can add the changes, go to contribute section then click on 'open pull request' and then make a request for change
+#you can aslo see what changes you have done
+
+#orginial create will see requests in "pull requests" and then go to "file chnage" -> "review changes" -> "approve"
 
