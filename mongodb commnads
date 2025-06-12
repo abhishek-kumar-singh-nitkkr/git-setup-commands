@@ -1,2 +1,6 @@
 #to start mongoshell using cmd
 mongosh
+#to show all the databses
+show dbs
+#to create or switch to a database
+use dbname
