@@ -4,3 +4,7 @@ mongosh
 show dbs
 #to create or switch to a database
 use dbname
+#to see collection in a db
+db.courses.find() //here courses collection contains different documents
+#to insert a document in a collection
+db.courses.insertOne({name: "JavaScript"})
