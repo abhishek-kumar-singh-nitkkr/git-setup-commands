@@ -8,3 +8,4 @@ use dbname
 db.courses.find() //here courses collection contains different documents
 #to insert a document in a collection
 db.courses.insertOne({name: "JavaScript"})
+#we can use playground in vscode for creating datase and insert data into it
