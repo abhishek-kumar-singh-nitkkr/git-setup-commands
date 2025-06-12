@@ -1,0 +1,4 @@
+#to bypass user restrictions
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+#to run nextjs
+npm run dev
