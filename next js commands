@@ -2,3 +2,10 @@
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 #to run nextjs
 npm run dev
+
+#if a project is copied from github then
+#use command first
+npm install next react react-dom
+#then use
+npm run dev
+
